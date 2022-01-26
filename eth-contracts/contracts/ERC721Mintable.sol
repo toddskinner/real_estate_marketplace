@@ -48,6 +48,7 @@ contract Ownable {
 }
 
 //  TODO's: Create a Pausable contract that inherits from the Ownable contract
+//  https://github.com/ConsenSysMesh/openzeppelin-solidity/blob/master/contracts/lifecycle/Pausable.sol
 contract Pausable is Ownable {
 
 //  1) create a private '_paused' variable of type bool
@@ -156,8 +157,8 @@ contract ERC721 is Pausable, ERC165 {
         // TODO return the token balance of given address
         // TIP: remember the functions to use for Counters. you can refresh yourself with the link above
         
-        // require(owner != address(0), "owner must be valid address");
-        _ownedTokensCount[owner].current();
+        require(owner != address(0), "owner must be valid address");
+        return _ownedTokensCount[owner].current();
     }
 
     function ownerOf(uint256 tokenId) public view returns (address) {

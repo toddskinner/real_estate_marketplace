@@ -2,6 +2,24 @@
 
 The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
 
+## Running Zokrates
+
+### docker run -v
+
+![Docker Run](images/run_docker.png)
+
+### compile
+
+![Compile](images/compile.png)
+
+### setup
+
+![Setup](images/UML_state_supplychain.png)
+
+### Class Diagram
+
+![Class Diagram](images/UML_class_supplychain.png)
+
 # Project Resources
 
 * [Remix - Solidity IDE](https://remix.ethereum.org/)
