@@ -14,11 +14,15 @@ The capstone will build upon the knowledge you have gained in the course in orde
 
 ### setup
 
-![Setup](images/UML_state_supplychain.png)
+![Setup](images/setup.png)
 
-### Class Diagram
+### compute witness
 
-![Class Diagram](images/UML_class_supplychain.png)
+![Compute Witness](images/compute_witness.png)
+
+### generate proof
+
+![Compute Witness](images/generate_proof.png)
 
 # Project Resources
 
