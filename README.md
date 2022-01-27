@@ -928,7 +928,7 @@ All 11 tests should pass and your terminal should look something like this:
 ![OpenSea Rinkeby marketplace 1](images/opensea1.png)
 ![OpenSea Rinkeby marketplace 2](images/opensea2.png)
 
-## ZoKrates
+## Zokrates Steps
 
 * **Run Zokrates docker container:**
   ```
