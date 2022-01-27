@@ -928,6 +928,45 @@ All 11 tests should pass and your terminal should look something like this:
 ![OpenSea Rinkeby marketplace 1](images/opensea1.png)
 ![OpenSea Rinkeby marketplace 2](images/opensea2.png)
 
+## ZoKrates
+
+* Step 1: Run ZoKrates docker container:
+  ```
+  //docker run -v <path to your project folder>:/home/zokrates/code -ti zokrates/zokrates /bin/bash
+
+  docker run -v/ Users/toddskinner/BlockchainCourse/Blockchain-Capstone-master/zokrates/code:/home/zokrates/code -ti zokrates/zokrates /bin/bash
+  ```
+
+  Change into the square directory
+  ``` 
+  cd code/square/
+  ``` 
+
+* Step 2: Compile 
+  ``` 
+  zokrates compile -i square.code
+  ``` 
+
+* Step 3: Setup
+  ``` 
+  zokrates setup
+  ```
+
+* Step 4: Compute witness
+  ``` 
+  zokrates compute-witness -a 3 9
+  ```
+
+* Step 5: Generate proof
+  ```
+  zokrates generate-proof
+  ```
+
+* Step 6: Export verifier
+  ```  
+  zokrates export-verifier
+  ```
+
 # Project Resources
 
 * [Remix - Solidity IDE](https://remix.ethereum.org/)
