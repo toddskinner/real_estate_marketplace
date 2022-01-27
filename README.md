@@ -930,7 +930,7 @@ All 11 tests should pass and your terminal should look something like this:
 
 ## ZoKrates
 
-* Step 1: Run ZoKrates docker container:
+* **Run Zokrates docker container:**
   ```
   //docker run -v <path to your project folder>:/home/zokrates/code -ti zokrates/zokrates /bin/bash
 
@@ -942,27 +942,27 @@ All 11 tests should pass and your terminal should look something like this:
   cd code/square/
   ``` 
 
-* Step 2: Compile 
+* **Compile**
   ``` 
   zokrates compile -i square.code
   ``` 
 
-* Step 3: Setup
+* **Setup**
   ``` 
   zokrates setup
   ```
 
-* Step 4: Compute witness
+* **Compute witness**
   ``` 
   zokrates compute-witness -a 3 9
   ```
 
-* Step 5: Generate proof
+* **Generate proof**
   ```
   zokrates generate-proof
   ```
 
-* Step 6: Export verifier
+* **Export verifier**
   ```  
   zokrates export-verifier
   ```
