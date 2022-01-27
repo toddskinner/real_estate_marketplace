@@ -10,7 +10,7 @@ The capstone will build upon the knowledge you have gained in the course in orde
 
 ## OpenSea marketplace
 
-**Website:**   https://rinkeby.etherscan.io/address/0x0c0781F05874DC06B8a0B11c71F3494D68fA8850
+**Website:**   https://testnets.opensea.io/collection/stonecap
 
 ![OpenSea Rinkeby marketplace 1](images/opensea1.png)
 ![OpenSea Rinkeby marketplace 2](images/opensea2.png)
