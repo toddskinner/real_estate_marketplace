@@ -34,6 +34,11 @@ contract Ownable {
 
     }
 
+    function getOwner() public view returns(address)
+    {
+        return _owner;
+    }
+
     /// Check if the calling address is the owner of the contract
     function isOwner() public view returns (bool) {
         return msg.sender == _owner;

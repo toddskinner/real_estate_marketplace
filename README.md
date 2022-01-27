@@ -2,7 +2,7 @@
 
 The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
 
-## Running Zokrates
+## NOTES: Running Zokrates
 
 ### docker run -v
 
